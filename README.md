@@ -3,7 +3,7 @@ then url_check.py for quick verify for instance the workers.dev space so it look
 use url_full.py for good and quick overview during scanning   
 
 
-```output url_check.py:   
+```  output url_check.py:   
 2025-06-20 14:47:51,836 - INFO - Starting URL checks
 2025-06-20 14:47:51,837 - INFO - Loaded 101 domains for checking
 2025-06-20 14:47:51,837 - INFO - Checking: https://xx.dev
@@ -13,9 +13,9 @@ use url_full.py for good and quick overview during scanning
 2025-06-20 14:47:55,197 - INFO - Checking: https://xx.dev
 2025-06-20 14:47:56,313 - INFO - Checking: https://xx.dev
 2025-06-20 14:48:05,325 - INFO - Checking: https://cookie-consent.deedmob.workers.dev
-2025-06-20 14:48:05,429 - WARNING - Cloudflare 1101 error detected on https://cookie-consent.deedmob.workers.dev```     
+2025-06-20 14:48:05,429 - WARNING - Cloudflare 1101 error detected on https://cookie-consent.deedmob.workers.dev  ```     
 
-``output url_full.py:    
+```  output url_full.py:    
 Domain                                                       | Status                    | HTTP Code  | Details
 ------------------------------------------------------------------------------------------------------------------------
 xx.dev                | UP (Healthy)              | 401        | You need to login....
@@ -29,4 +29,4 @@ xxx.dev      | UP (Healthy)              | 404        | <!DOCTYPE html>
     <meta http-equiv="refresh" content="30">
     <title>Page not found</title>
     <link rel="icon" type="image/png" href="https://workers.cloudflar...
-```
+   ```
