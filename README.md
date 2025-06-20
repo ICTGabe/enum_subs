@@ -14,7 +14,8 @@ Output url_check.py:
 2025-06-20 14:47:55,197 - INFO - Checking: https://xx.dev
 2025-06-20 14:47:56,313 - INFO - Checking: https://xx.dev
 2025-06-20 14:48:05,325 - INFO - Checking: https://cookie-consent.deedmob.workers.dev
-2025-06-20 14:48:05,429 - WARNING - Cloudflare 1101 error detected on https://cookie-consent.deedmob.workers.dev  ```     
+2025-06-20 14:48:05,429 - WARNING - Cloudflare 1101 error detected on https://cookie-consent.deedmob.workers.dev  
+```     
 
 ```  
 Output url_full.py:    
