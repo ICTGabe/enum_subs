@@ -4,7 +4,7 @@ use url_full.py for good and quick overview during scanning
 
 
 ```  
-Output url_check.py:   
+Output url_check_cloudflare_1101.py:   
 2025-06-20 14:47:51,836 - INFO - Starting URL checks
 2025-06-20 14:47:51,837 - INFO - Loaded 101 domains for checking
 2025-06-20 14:47:51,837 - INFO - Checking: https://xx.dev
@@ -18,7 +18,7 @@ Output url_check.py:
 ```     
 
 ```  
-Output url_full.py:    
+Output url_fullV1.0.py(Older Version):    
 Domain                                                       | Status                    | HTTP Code  | Details
 ------------------------------------------------------------------------------------------------------------------------
 xx.dev                | UP (Healthy)              | 401        | You need to login....
@@ -32,4 +32,13 @@ xxx.dev      | UP (Healthy)              | 404        | <!DOCTYPE html>
     <meta http-equiv="refresh" content="30">
     <title>Page not found</title>
     <link rel="icon" type="image/png" href="https://workers.cloudflar...
-   ```
+   ```      
+
+Newest version supports Filescan as API, if suspicious indicators match of url, filescan performs scan to verify malicious intent.   
+Also added csv file input. You can now input custom csv instead of static variable.
+(Note you need to have Filescan API key (it's free))
+
+Output url_fullV2.0.py:
+```    
+
+```   

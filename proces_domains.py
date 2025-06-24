@@ -1,3 +1,4 @@
+# Convert CSV to usable CSV for url_check.py
 import csv
 import os
 
